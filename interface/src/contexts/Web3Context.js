@@ -4,7 +4,7 @@ import MetacircleABI from "../ABI/Metacircle.json";
 export const Web3Context = createContext();
 
 // Initialize contract (replace with your contract address and ABI)
-const CONTRACT_ADDRESS = "<Contract-Address>";
+const CONTRACT_ADDRESS = "Replace_with_your_contracct_address";
 const contractABI = MetacircleABI.abi;
 export const Web3Provider = ({ children }) => {
   const [account, setAccount] = useState(null);
